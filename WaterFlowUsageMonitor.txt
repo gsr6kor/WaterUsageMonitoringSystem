@@ -2,7 +2,6 @@
 #include <EEPROM.h> 
 #define  USE_SERIAL Serial
 #include <ESP8266WiFi.h> 
-//#include <ESP8266HTTPClient.h>
 #include <PubSubClient.h>
 
 #define ORG "4taewe"
@@ -27,7 +26,7 @@ void  startWIFI (void);
 const  int buttonPin = 4; // variable for D2 pin
 const  int ledPin = LED_BUILTIN;
 char push_data [ 200 ]; // string is used to send info to the server
-int addr = 0 ; // endereço eeprom
+int addr = 0 ; // endereÃ§o eeprom
 byte sensorInterrupt = 0 ; // 0 = digital pin 2
 
 // The hall-effect flow sensor outputs approximately 4.5 pulses per second per
@@ -43,8 +42,8 @@ unsigned  long totalMilliLitres;
 unsigned  long oldTime;
  
 // SSID and PASSWORD for the AP (swap the XXXXX for real SSID and password)
-const  char * ssid = "DPS" ;
-const  char * password = "prudhvisagar";
+const  char * ssid = "xxxxx" ;
+const  char * password = "xxxxx";
 
 void  ICACHE_RAM_ATTR pulseCounter (void);
 void  setup () {
