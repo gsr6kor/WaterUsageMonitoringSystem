@@ -2,7 +2,6 @@
 #include <EEPROM.h> 
 #define  USE_SERIAL Serial
 #include <ESP8266WiFi.h> 
-//#include <ESP8266HTTPClient.h>
 #include <PubSubClient.h>
 
 #define ORG "4taewe"
@@ -43,8 +42,8 @@ unsigned  long totalMilliLitres;
 unsigned  long oldTime;
  
 // SSID and PASSWORD for the AP (swap the XXXXX for real SSID and password)
-const  char * ssid = "DPS" ;
-const  char * password = "prudhvisagar";
+const  char * ssid = "xxxxx" ;
+const  char * password = "xxxxx";
 
 void  ICACHE_RAM_ATTR pulseCounter (void);
 void  setup () {
