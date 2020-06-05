@@ -133,7 +133,7 @@ void  loop ()
             Serial.println();
         }
 
-          String payload = "{\"d\":{\"myName\":\"ESP8266.WaterFlowMeasurement\",\"CurrentFlow.mlPerSec\":";
+          String payload = "{\"myName\":\"ESP8266.WaterFlowMeasurement\",\"CurrentFlow.mlPerSec\":";
           payload += flowMilliLitres;
           payload+=",\"TotalFlow.mlPerSec\":";
           payload += totalMilliLitres;
